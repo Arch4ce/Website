@@ -506,34 +506,104 @@ nav {
   background-color: #6a001a;
 }
 
-/* Footer */
+/* Footer Styles */
 footer {
-  background-color: var(--burgundy);
-  color: var(--putih);
-  padding: 40px 0 20px;
+    background-color: var(--burgundy);
+    color: var(--putih);
+    padding: 40px 0 20px;
 }
 
-.footer-content {
-  text-align: center;
-  margin-bottom: 30px;
+.footer-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-section {
+    padding: 0 20px;
 }
 
 .footer-logo {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .footer-contact {
-  margin-top: 20px;
+    margin-top: 20px;
+}
+
+/* Payment Section Styles */
+.payment-info h3 {
+    color: var(--putih);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.bank-info {
+    display: flex;
+    align-items: center;
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    max-width: 350px; /* membatasi lebar maksimal */
+}
+
+.bank-logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.bank-details {
+    flex: 1;
+    min-width: 200px; /* minimum width untuk text */
+}
+
+.bank-details strong {
+    color: var(--putih);
+    font-weight: 500;
+}
+
+.payment-note {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.8);
+    font-style: italic;
+    margin-top: 10px;
 }
 
 .footer-bottom {
-  padding-top: 20px;
-  border-top: 1px solid rgba(255,255,255,0.1);
-  text-align: center;
-  font-size: 0.9rem;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .footer-sections {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-section {
+        padding: 0;
+    }
+
+    .bank-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bank-logo {
+        margin: 0 0 15px 0;
+        width: 80px;
+    }
 }
 
 /* Responsive Styles */
