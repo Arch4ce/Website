@@ -272,6 +272,10 @@ nav {
     font-size: 1.1rem;
 }
 
+.product-card.hidden {
+    display: none;
+}
+
 /* Tombol Lihat Lebih */
 .view-more {
     text-align: center;
