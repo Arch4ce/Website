@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petal Lab Florist - Karangan Bunga Segar</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Petal Lab Florist</div>
+            <div class="contact-info">
+                <div class="phone">📞 +62 8XX-XXXX-XXXX</div>
+                <div class="email">📧 @gmail.com</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Karangan Bunga Indah untuk Setiap Momen</h1>
+                <p>Kami menyediakan rangkaian bunga segar dan indah untuk berbagai acara spesial Anda. Dari pernikahan, ulang tahun, hingga acara duka cita.</p>
+                <a href="#products" class="btn">Lihat Koleksi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+<section class="products" id="products">
+    <div class="container">
+        <div class="section-title">
+            <h2>Koleksi Karangan Bunga</h2>
+            <p>Berbagai pilihan karangan bunga untuk setiap momen spesial</p>
+        </div>
+        <div class="product-grid">
+            <!-- Product 1 - Karangan Bunga Ucapan Selamat -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images\web1.jpg" alt="Karangan Bunga Selamat" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Karangan Bunga Selamat</h3>
+                    <p>Karangan bunga papan untuk ucapan selamat grand opening, wisuda, atau pencapaian</p>
+                    <div class="product-price">Mulai dari Rp 500.000</div>
+                    <button class="btn product-order-btn" data-product="Karangan Bunga Selamat">Pesan Sekarang</button>
+                </div>
+            </div>
+            
+            <!-- Product 2 - Karangan Bunga Duka Cita -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images\web1.jpg" alt="Karangan Bunga Duka Cita" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Karangan Bunga Duka Cita</h3>
+                    <p>Karangan bunga papan untuk menyampaikan belasungkawa dengan desain yang khidmat</p>
+                    <div class="product-price">Mulai dari Rp 600.000</div>
+                    <button class="btn product-order-btn" data-product="Karangan Bunga Duka Cita">Pesan Sekarang</button>
+                </div>
+            </div>
+            
+            <!-- Product 3 - Karangan Bunga Pernikahan -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images\web1.jpg" alt="Karangan Bunga Pernikahan" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Karangan Bunga Pernikahan</h3>
+                    <p>Karangan bunga papan ucapan selamat menempuh hidup baru dengan desain elegan</p>
+                    <div class="product-price">Mulai dari Rp 750.000</div>
+                    <button class="btn product-order-btn" data-product="Karangan Bunga Pernikahan">Pesan Sekarang</button>
+                </div>
+            </div>
+            
+            <!-- Product 4 - Karangan Bunga Custom -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images\web1.jpg" alt="Karangan Bunga Custom" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Karangan Bunga Custom</h3>
+                    <p>Desain karangan bunga sesuai permintaan khusus Anda untuk berbagai acara</p>
+                    <div class="product-price">Harga menyesuaikan</div>
+                    <button class="btn product-order-btn" data-product="Karangan Bunga Custom">Pesan Sekarang</button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images\web1.jpg" alt="Karangan Bunga Premium" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Karangan Bunga Premium</h3>
+                    <p>Karangan bunga premium dengan kualitas terbaik dan design mewah</p>
+                    <div class="product-price">Mulai dari Rp 1.000.000</div>
+                    <button class="btn product-order-btn" data-product="Karangan Bunga Premium">Pesan Sekarang</button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images\web1.jpg" alt="Karangan Bunga Spesial" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Karangan Bunga Spesial</h3>
+                    <p>Karangan bunga spesial untuk acara-acara tertentu dengan design unik</p>
+                    <div class="product-price">Mulai dari Rp 850.000</div>
+                    <button class="btn product-order-btn" data-product="Karangan Bunga Spesial">Pesan Sekarang</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Tombol Lihat Lebih -->
+        <div class="view-more">
+            <button class="view-more-btn" id="viewMoreBtn">Lihat Lebih</button>
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="section-title">
+                        <h2>Tentang Kami</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eos neque fugit mollitia labore nobis vero doloribus blanditiis officiis nisi consequatur, recusandae corrupti rerum eligendi quasi modi, ducimus nihil harum. Minus, ducimus?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti est facere perferendis voluptatibus ea aperiam incidunt, earum id! Quia modi nesciunt dolorem iusto dicta consectetur temporibus voluptates animi! Molestiae error nemo beatae.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis beatae quae aspernatur, possimus cum. Culpa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hubungi Kami</h2>
+                <p>Pesan karangan bunga atau tanyakan informasi lebih lanjut</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Alamat</h3>
+                        <p>Jl. Raya Tlogomas</p>
+                    </div>
+                    <div class="info-item">
+                      <h3>Telepon</h3>
+                      <p>+62 8XX-XXXX-XXXX</p>
+                  </div>
+                  <div class="info-item">
+                      <h3>Email</h3>
+                      <p>@gmail.com</p>
+                  </div>
+                  <div class="info-item">
+                      <h3>Jam Operasional</h3>
+                      <p>Senin - Minggu: 08.00 - 20.00 WIB</p>
+                  </div>
+                  <div class="social-media">
+                      <h3>Ikuti Kami</h3>
+                      <div class="social-links">
+                          <a href="#" class="social-link">Instagram</a>
+                          <a href="#" class="social-link">Facebook</a>
+                          <a href="#" class="social-link">WhatsApp</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="contact-form">
+                  <form id="contactForm">
+                      <div class="form-group">
+                          <label for="name">Nama Lengkap</label>
+                          <input type="text" id="name" name="name" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" id="email" name="email" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="phone">Nomor Telepon</label>
+                          <input type="tel" id="phone" name="phone" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="message">Pesan</label>
+                          <textarea id="message" name="message" rows="5" required></textarea>
+                      </div>
+                      <button type="submit" class="btn">Kirim Pesan</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+      <div class="container">
+          <h2>Pesan Karangan Bunga Sekarang</h2>
+          <p>Hubungi kami untuk konsultasi dan pemesanan</p>
+          <a href="#contact" class="btn">Hubungi Kami</a>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-logo">Petal Lab Florist</div>
+              <p>Menyediakan karangan bunga indah untuk setiap momen spesial Anda.</p>
+              <div class="footer-contact">
+                  <p>📞 +62 8XX-XXXX-XXXX | 📧 @gmail.com</p>
+                  <p>Jl. Raya Tlogomas</p>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2025 Petal Lab Florist. Hak Cipta Dilindungi.</p>
+          </div>
+      </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+</html>
